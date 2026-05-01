@@ -62,6 +62,11 @@ Customer-Churn-Prediction/
 
 ---
 
+📊 Output Example
+Churn Prediction: 1
+Churn Probability: 0.82
+
+
 ## 🚀 How to Run This Project
 
 ### 1️⃣ Install dependencies
@@ -74,7 +79,3 @@ python src/train.py
 4️⃣ Test model
 python src/test_model.py.
 
-
-📊 Output Example
-Churn Prediction: 1
-Churn Probability: 0.82
