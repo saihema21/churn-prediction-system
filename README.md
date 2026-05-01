@@ -47,3 +47,34 @@ Customer churn is a major challenge for subscription-based businesses (Telecom, 
 ---
 
 ## 📁 Project Structure
+Customer-Churn-Prediction/
+│
+├── data/ # Dataset
+├── src/ # Source code
+│ ├── create_data.py
+│ ├── train.py
+│ └── test_model.py
+├── models/ # Trained model
+│ └── model.pkl
+├── requirements.txt
+└── README.md
+
+
+---
+
+## 🚀 How to Run This Project
+
+### 1️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+2️⃣ Generate dataset
+python src/create_data.py
+3️⃣ Train model
+python src/train.py
+4️⃣ Test model
+python src/test_model.py.
+
+
+📊 Output Example
+Churn Prediction: 1
+Churn Probability: 0.82
